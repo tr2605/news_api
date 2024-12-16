@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nieuws Webapplicatie</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nieuws Webapplicatie</h1>
+        <select id="country-dropdown">
+            <option value="us">Verenigde Staten</option>
+            <option value="nl">Nederland</option>
+            <option value="de">Duitsland</option>
+            <!-- Voeg meer landen toe indien nodig -->
+        </select>
+        <select id="category-dropdown">
+            <option value="general">Algemeen</option>
+            <option value="business">Zakelijk</option>
+            <option value="technology">Technologie</option>
+            <!-- Voeg meer categorieën toe indien nodig -->
+        </select>
+        <button id="fetch-news">Haal Nieuws Op</button>
+    </header>
+    <main id="news-container">
+        <!-- Nieuwsartikelen worden hier weergegeven -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
